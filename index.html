@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;600;700&display=swap">
+    <script src="https://kit.fontawesome.com/617bd2c8d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/my tech university.mp4">
+        </video>
+        <nav>
+            <a href="index.html"> <img src="images/NF.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Ev</a></li>
+                    <li><a href="About.html">Haqqımızda</a></li>
+                    <li><a href="Education.html">Təhsil</a></li>
+                    <li><a href="Innovation.html">Yenilik</a></li>
+                    <li><a href="Login&Register.html">Daxil olun & Qeydiyyatdan Keçin</a></li>
+                    <li><a href="Contact.html">Bizimlə Əlaqə</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Dünyanın Ən Böyük Universiteti</h1> <br>
+            <p>
+                Dünyanın ən yaxşı və ən gözəl şeylərini görmək, hətta toxunmaq mümkün deyil.<br> Bunları ürəklə hiss
+                etmək lazımdır. <br>
+
+                HELEN KELLER</p> <br>
+            <a href="" class="hero-btn">Daha çox bilmək üçün bizi ziyarət edin</a>
+
+        </div>
+    </section>
+    <!-------- JavaScript for Toogle Menu ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+
+    <!---- Course ------->
+
+    <section class="course">
+        <h1>Kursa xoş gəlmisiniz</h1>
+        <p> </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Aralıq</h3>
+                <p>MİT rəqəmsal texnologiyalar ixtira və istifadə etməklə, <br> kampusumuzda və bütün dünyada yeni
+                    tədris və öyrənmə üsullarına öncülük edir. İnstitutun kütləvi şəkildə açıq onlayn kurslar portfeli
+                    olan MITx, MIT müəllimləri tərəfindən hazırlanmış və tədris olunan bir sıra interaktiv kurslara
+                    çevik giriş təklif edir. <br></p>
+            </div>
+            <div class="course-col">
+                <h3>Dərəcə</h3>
+                <p>Hesablama Elmləri və Mühəndisliyi Mərkəzində (CCSE) kurrikuluma <br>
+                    bağlı hesablama elmi və mühəndisliyi və əlaqəli sahələrdə kampusdankənar <br>
+                    təcrübə öyrənmə təcrübələrində iştirak edən məzun tələbələri üçün. </p>
+            </div>
+            <div class="course-col">
+                <h3>Məzuniyyətdən Sonra</h3>
+                <p>Lisansüstü Təhsil MIT magistr proqramları bilik sərhədlərini <br>
+                    genişləndirmək üçün birlikdə işləyən tələbələr və fakültə tərəfindən <br>
+                    qabaqcıl təhsil üçün əməkdaşlıq mühiti təmin edir. MIT mühəndislik, <br>
+                    elm, hesablama, memarlıq və planlaşdırma, idarəetmə, sosial və <br>
+                    humanitar elmlər üzrə qlobal miqyasda məşhur magistr proqramlarına malikdir.</p>
+            </div>
+        </div>
+    </section>
+    <!------- campus ------>
+    <section class="campus">
+        <h1>Qlobal Kampusumuz</h1>
+        <p>Biz dünyanın ən gözəl yerlərindəyik.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/London.jpeg">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/New York.jpeg">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/Washington.jpeg">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ----- facilities -------->
+    <section class="facilities">
+        <h1>Obyektlərimiz</h1>
+        <p>Biz sizinləyik.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/Library.jpeg">
+                <h3>Dünya səviyyəli kitabxana</h3>
+                <p>NF Açıq Öyrənmə Kitabxanası NF OpenCourseWare və NFx.
+                    kurslarından seçilmiş təhsil məzmununa ev sahibliyi edir və dünyanın <br>
+                    istənilən yerində istənilən vaxt pulsuz əldə edə bilər. <br>
+                    NF öyrənmə materiallarını dünya ilə paylaşmağa sadiqdir. Açıq <br>
+                    Öyrənmə Kitabxanası NF-dən öz sürətinizlə öyrənmək, interaktiv <br>
+                    problemlərlə məşğul olmaq və ani rəy almaq üçün əlavə imkanlar təqdim edir.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Basketball.jpg">
+                <h3>Ən böyük oyun meydançası</h3>
+                <p>Əlbəttə! Niyə böyüklər bütün əyləncələri yaşamalıdırlar? <br>
+                    Uşaqlar 1986-cı ildə San-Fransiskodakı Baker çimərliyində yarandığı gündən <br>
+                    bəri Yanan Adama gedirlər. Uşaqlar artıq onu əldə edirlər. Həyatda <br>
+                    gəzərkən əylənməyi unutmamalı olan qalanlarımızdır. Bunu öyrənmək <br>
+                    üçün Burning Man - Dünyanın Ən Böyük Oyun Meydançasından daha yaxşı yer yoxdur!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Cafeteri.jpeg">
+                <h3>Dadlı və Sağlam Yemək</h3>
+                <p>Məqsəd sağlamlıq nəticələrini yaxşılaşdırmaq məqsədi ilə <br>
+                    aztəminatlı ailələr arasında meyvə və tərəvəz istehlakını səmərəli<br>
+                    şəkildə artırmaqdır. <br> Siz burada sağlamlığınızın qeydinə Sağlam qala bilərsiniz.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-------- testimonials -------->
+    <section class="testimonials">
+        <h1>Tələbəmiz nə deyir</h1>
+        <p>Sizlərin fikirləri hər birimizin gələcəyi üçün vacibdir.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/User-Girl.jpeg">
+                <div>
+                    <p>Mən NF'ə qəbul olanda bu qədər önəmli məlumatlar <br>
+                        öyrənərək təhsil alacağımı düşünmürdüm.
+                    </p>
+                    <h3>Aliyə Azad</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/User 2-Girl.jpeg">
+                <div>
+                    <p> İnanılmaz təcrüb idi.<br>
+                        Hələ də inana bilmirəm ki, artıq son ilimdir</p>
+                    <h3>Ceyla Bəkirova</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
